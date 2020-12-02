@@ -3,40 +3,36 @@
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img
-                    src="~@/assets/images/logo.png"
+                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
                     alt="Lightweight UI components for Vue.js based on Bulma"
                 >
             </b-navbar-item>
         </template>
         <template slot="start">
             <b-navbar-item href="#">
-                <b-input placeholder="Search products"
-                type="search"
-                icon="magnify"
-                icon-clickable
-                @icon-click="searchIconClick">
-            </b-input>
+                Home
             </b-navbar-item>
+            <b-navbar-item href="#">
+                Documentation
+            </b-navbar-item>
+            <b-navbar-dropdown label="Info">
+                <b-navbar-item href="#">
+                    About
+                </b-navbar-item>
+                <b-navbar-item href="#">
+                    Contact
+                </b-navbar-item>
+            </b-navbar-dropdown>
         </template>
 
         <template slot="end">
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button" >
-                        <strong>
-                            <div class="block">
-                                <b-icon
-                                    icon="basket"
-                                ></b-icon>
-                            </div>
-                        </strong>
+                    <a class="button is-primary" >
+                        <strong>Sign up</strong>
                     </a>
                     <a class="button is-light">
-                        <div class="block">
-                                <b-icon
-                                    icon="account"
-                                ></b-icon>
-                            </div>
+                        Log in
                     </a>
                 </div>
             </b-navbar-item>

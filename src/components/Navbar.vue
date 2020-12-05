@@ -6,16 +6,17 @@
                     src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
                     alt="Lightweight UI components for Vue.js based on Bulma"
                 >
-            </b-navbar-item>
-        </template>
-        <template slot="start">
-            <b-navbar-item href="#">
+                <b-navbar-item href="#">
                 <b-input placeholder="Search..."
                     type="search"
                     icon-pack="fas"
                     icon="search">
                 </b-input>
             </b-navbar-item>
+            </b-navbar-item>
+        </template>
+        <template slot="start">
+            
         </template>
 
         <template slot="end">

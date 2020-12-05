@@ -69,6 +69,9 @@ export default {
 </script>
 
 <style>
+.b-sidebar{
+  max-width: 25%;
+}
 .p-1 {
   padding: 1em;
 }

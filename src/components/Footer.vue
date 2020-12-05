@@ -1,14 +1,24 @@
 <template>
-  <footer class="footer" style="padding: 3rem 1.5rem 3rem;">
-    <div class="content has-text-centered">
+  <footer class="footer-mart" style="padding: 3rem 1.5rem 3rem;">
+    <div class="content" style="font-family: Rubik, Sans-serif;">
       <p>
-        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        <strong style="color: white!important"> © GlovoryMart - All rights reserved.</strong>
       </p>
     </div>
   </footer>
 </template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.footer-mart{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 25px!important;
+  padding-bottom: 25px!important;
+  background-color: #222b45!important;
+}
+</style>
 <script>
   export default {
     name: 'Footer'
